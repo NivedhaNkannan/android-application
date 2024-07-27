@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scrollview xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textLayoutHeader"
+                android:layout_width="447dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="30dp"
+                android:layout_toRightOf="@+id/imgTonyStark"
+                android:padding="10dp"
+                android:text="tony stark"
+                android:textColor="#673ab7"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textLayoutSubHeader"
+                android:layout_width="467dp"
+                android:layout_height="40dp"
+                android:layout_margin="1dp"
+                android:padding="2dp"
+                android:text="tonystark@gmail.com"
+                android:textColor="#f44336"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:layout_toRightOf="@+id/imgTonyStark"
+                android:layout_below="@+id/textLayoutHeader"/>
+
+            <ImageView
+                android:id="@+id/imgTonyStark"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/img"
+                android:layout_alignParentTop="true"/>
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textLayoutSubHeader"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:hint="Enter your name here"
+                android:inputType="text" />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/textLayoutHeader"
+                android:layout_width="447dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="30dp"
+                android:layout_toRightOf="@+id/imgTonyStark"
+                android:padding="10dp"
+                android:text="tony stark"
+                android:textColor="#673ab7"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textLayoutSubHeader"
+                android:layout_width="467dp"
+                android:layout_height="40dp"
+                android:layout_margin="1dp"
+                android:padding="2dp"
+                android:text="tonystark@gmail.com"
+                android:textColor="#f44336"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:layout_toRightOf="@+id/imgTonyStark"
+                android:layout_below="@+id/textLayoutHeader"/>
+
+            <ImageView
+                android:id="@+id/imgTonyStark"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/img"
+                android:layout_alignParentTop="true"/>
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your name here"
+                android:layout_margin="10dp"
+                android:inputType="text"
+                android:layout_below="@+id/textLayoutSubHeader"/>
+        </RelativeLayout>
+    </LinearLayout>
+</scrollview>
